@@ -1,0 +1,9 @@
+{
+  "executablePath": "/snap/chromium/current/usr/lib/chromium-browser/chrome",
+  "args": [
+    "--no-sandbox",
+    "--disable-setuid-sandbox",
+    "--disable-gpu",
+    "--disable-dev-shm-usage"
+  ]
+}

@@ -1,0 +1,4 @@
+beautifulsoup4==4.12.3
+lxml==5.2.2
+markdownify==0.13.1
+extract-msg==0.48.7

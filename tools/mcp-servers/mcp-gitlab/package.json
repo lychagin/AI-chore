@@ -1,0 +1,19 @@
+{
+  "name": "gitlab-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for GitLab: MR comments, merge requests, issues, pipelines",
+  "type": "module",
+  "bin": {
+    "gitlab-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.3.6"
+  }
+}

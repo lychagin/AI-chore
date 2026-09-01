@@ -1,0 +1,16 @@
+{
+  "name": "docker-tools",
+  "version": "1.0.0",
+  "description": "helper tools to work with docker",
+  "main": "docker-toolset.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "packageManager": "npm@10.8.2",
+  "devDependencies": {},
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}

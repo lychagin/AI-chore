@@ -1,0 +1,19 @@
+{
+  "name": "openproject-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for OpenProject API v3 (work packages, comments, attachments, time entries)",
+  "type": "module",
+  "bin": {
+    "openproject-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.3.6"
+  }
+}

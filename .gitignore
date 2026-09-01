@@ -1,0 +1,18 @@
+# Зависимости утилит ставятся на месте и в репозиторий не попадают
+node_modules/
+package-lock.json
+.venv/
+__pycache__/
+*.pyc
+dist/
+*.tsbuildinfo
+
+# Локальные настройки и секреты
+.env
+.envrc
+*.local.json
+
+# Накопленные данные инструментов — принадлежат команде, а не инструменту
+tools/review-collector/patterns/
+tools/review-collector/review/
+tools/eml-to-md/fixtures/

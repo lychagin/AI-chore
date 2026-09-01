@@ -1,0 +1,31 @@
+{
+    "name": "mcp-dgraph-server",
+    "private": true,
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "license-report": ""
+    },
+    "keywords": [
+        "mcp",
+        "dgraph",
+        "server"
+    ],
+    "author": "",
+    "license": "ISC",
+    "description": "MCP server for DGraph: query, mutate, schema, stats, health",
+    "packageManager": "npm@10.8.2",
+    "devDependencies": {
+        "@types/node": "~22.10.5",
+        "tsx": "^4.19.2",
+        "typescript": "~5.5.4"
+    },
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^0.4.0",
+        "dgraph-js": "~24.2.0",
+        "dotenv": "^16.4.7"
+    }
+}

@@ -1,0 +1,87 @@
+@page {
+  size: A4 landscape;
+  margin: 12mm;
+}
+
+html,
+body {
+  font-family: "DejaVu Sans", "Liberation Sans", "Noto Sans", sans-serif;
+  font-size: 10pt;
+  line-height: 1.35;
+  color: #111;
+}
+
+h1 {
+  font-size: 18pt;
+  margin: 0 0 0.6em;
+}
+h2 {
+  font-size: 14pt;
+  margin: 1.1em 0 0.4em;
+  page-break-after: avoid;
+}
+h3,
+h4 {
+  font-size: 12pt;
+  margin: 0.9em 0 0.35em;
+  page-break-after: avoid;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0.7em 0;
+  font-size: 8.5pt;
+  page-break-inside: auto;
+}
+thead {
+  display: table-header-group;
+}
+tr {
+  page-break-inside: avoid;
+}
+th,
+td {
+  border: 1px solid #555;
+  padding: 3px 6px;
+  vertical-align: top;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+th {
+  background: #ececec;
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0.6em auto;
+  page-break-inside: avoid;
+}
+
+pre,
+code {
+  font-family: "DejaVu Sans Mono", "Liberation Mono", monospace;
+  font-size: 8pt;
+}
+pre {
+  white-space: pre-wrap;
+  background: #f6f6f6;
+  border: 1px solid #ddd;
+  padding: 8px;
+  overflow-wrap: anywhere;
+}
+
+blockquote {
+  margin: 0.6em 0;
+  padding: 0.2em 0.8em;
+  border-left: 3px solid #888;
+  color: #333;
+}
+
+a {
+  color: #063;
+  text-decoration: none;
+}
